@@ -16,5 +16,9 @@ test('renders navbar header', () => {
   expect(linkElement).toBeVisible();
 });
 
+test('renders navbar header', () => {
+  render(<Navbar/>)
+});
+
 
 
