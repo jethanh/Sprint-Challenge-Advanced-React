@@ -5,7 +5,7 @@ function PlayerCard(props){
         <div className="container">
             {props.playerData.map(player => {
                 return (
-                    <div className="playerCard"> 
+                    <div className="playerCard" key={player.id}> 
                         <p>Name: {player.name}</p>
                         <p>Country: {player.country}</p>
                     </div>
